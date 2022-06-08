@@ -1,9 +1,9 @@
 /* -----------文字----------- */
 .chineseText {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .englishText {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 /* -----------header----------- */
 .header {
@@ -39,13 +39,29 @@
 .sidebar i {
   color: rgb(255, 255, 255);
 }
+/* -----------container-fruid背景色---------- */
 .container-fruid {
   background-color: #f4f4f4;
-  height: 100vh;
 }
-svg {
+/* ---------------------------------------- */
+.titleSpan {
+  padding-top: 6%;
+}
+.spanBorder {
+  padding: 5px 20px 3px 20px;
+  border: 1px #747474 solid;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+.spanBorder p {
+  letter-spacing: 5px;
+  color: #5e5e5e;
+}
+
+.mapSvg {
   margin-top: 50px;
-  height: 90vh;
+  height: 800px;
 }
 path {
   stroke: white;
@@ -53,36 +69,54 @@ path {
   transition: 0.5s;
   cursor: pointer;
 }
-.st8{
+.st8 {
   fill: #000000;
 }
-.st4{
+.st8:hover {
+  fill: #353535;
+}
+.st4 {
   fill: #000000;
 }
-.st16{
+.st4:hover {
+  fill: #353535;
+}
+.st16 {
   fill: #000000;
 }
-.mapBox{
+.st16:hover {
+  fill: #353535;
+}
+.mapRow {
+  width: auto;
+}
+.cls-1 {
+  fill: #b51d23;
+}
+.cls-2 {
+  fill: #fff;
+}
+.mapBox {
   position: relative;
   width: fit-content;
   margin: auto;
 }
-.fa-solid-1{
+.mapIcon {
+  width: 9%;
   position: absolute;
-  color: rgb(196, 0, 0);
-  font-size: 40px;
+  top: 37%;
+  left: 17%;
+}
+.mapIcon2 {
+  width: 9%;
+  position: absolute;
+  top: 8%;
+  left: 55%;
+}
+.mapIcon3 {
+  width: 9%;
+  position: absolute;
   top: 10%;
-  right: 40%;
+  left: 74%;
 }
-.fa-solid-2{
-  position: absolute;
-  color: rgb(196, 0, 0);
-  font-size: 40px;
-}
-.fa-solid-3{
-  position: absolute;
-  color: rgb(196, 0, 0);
-  font-size: 40px;
-}
-
 
